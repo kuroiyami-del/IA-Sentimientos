@@ -1,13 +1,19 @@
-import numpy as np
-from tensorflow.keras.models import load_model
+
+import tensorflow
+from tensorflow import keras
+from keras import layers
+
+from keras.models import load_model
 from sklearn.feature_extraction.text import CountVectorizer
+
+import numpy as np
 import pickle
 
 #Carga del modelo
-modelo = load_model('modelos/modelo_sentimientos.h5')
+modelo = load_model('modelos/modelo_sentimientos.keras')
 
 # Cargar el vectorizador de texto 
-with open('modelos/vectorizer.pkl', 'rb') as file:
+with open('JupiterNotebook/vectorizer.pkl', 'rb') as file:
     vectorizador = pickle.load(file)
 
 reversing_mapping = {0: 'sadness', 1: 'joy', 2: 'love', 3: 'anger', 4: 'fear'}
