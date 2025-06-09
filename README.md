@@ -33,6 +33,27 @@ Este proyecto es una **IA de procesamiento de lenguaje natural (NLP)** que **det
 ## ▶️ Cómo usarlo
 
 1. Clona el repositorio:
+2. Usar la verison 3.8.3 de Python ya que es la mas compatible con las librerias usadas
+
+
+---
+
+## ✍️ Example Sentences to Test
+
+Positive:
+"I absolutely loved this product, it works perfectly!"
+
+"Amazing experience! Will definitely buy again."
+
+"Excellent customer service and fast delivery."
+
+Negative:
+"This is the worst product I’ve ever bought."
+
+"Terrible quality, broke after one use."
+
+"I’m very disappointed, not worth the money."
+
 
 ```bash
 
