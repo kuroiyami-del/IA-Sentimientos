@@ -41,6 +41,7 @@ Este proyecto es una **IA de procesamiento de lenguaje natural (NLP)** que **det
 ## ✍️ Example Sentences to Test
 
 Positive:
+---
 "I absolutely loved this product, it works perfectly!"
 
 "Amazing experience! Will definitely buy again."
@@ -48,6 +49,7 @@ Positive:
 "Excellent customer service and fast delivery."
 
 Negative:
+---
 "This is the worst product I’ve ever bought."
 
 "Terrible quality, broke after one use."
@@ -55,5 +57,5 @@ Negative:
 "I’m very disappointed, not worth the money."
 
 
-```bash
+
 
